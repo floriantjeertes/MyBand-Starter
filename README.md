@@ -1,6 +1,6 @@
 ## Titel van jouw website
-www.mijnliveomgeving.com is een website van (..jouw naam..) waar gebruikers kunnen (..nut gebruiker..) bedoeld voor (..doelgroep..)
-De website is enigszins te vergelijken met (..concurrentie1..) of (..concurrentie2..) maar toch anders omdat (..uniek aspect..)
+8bitshelf.com is een website van florian tjeertes waar gebruikers kunnen zoeken naar oldschool games informatie er over lezen en de games kunnen spelen bedoeld voor retrogamers
+De website is enigszins te vergelijken met http://emulator.online/nes/ of https://www.playretrogames.com/ maar toch anders omdat ik er informatie bij zet over de game
 
 ### Uniek aan dit concept is: 
  * eerste u.s.p. (vul hier in, waarin jouw site anders is dan alle anderen)
