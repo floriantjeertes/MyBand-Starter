@@ -5,6 +5,8 @@ Deze planning is een levend document (blijven aanpassen aan de werkelijke situat
 
 (je mag ook een eigen planningstool gebruiken, zo lang je hier je planning maar deelt)
 
+trello 
+https://trello.com/invite/b/z6447dGT/4adf2198d3304ee4a4c75459598c0bc2/school-planning-florian
 *Dit is versie 0.0*
 
 ##### WEEK 1
