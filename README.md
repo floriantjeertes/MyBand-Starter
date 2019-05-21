@@ -27,7 +27,7 @@ Deze fase duurt 3 weken
 | B1-K1-W1 Debriefing                               | DONE | [Debriefing]                         | Markdown |
 | B1-K1-W2 Planning                                 | DONE | [Planning]                           | Markdown |
 | B1-K1-W2 Plan van aanpak                          | TODO | [Plan van Aanpak]                    | Markdown of Word/RTF|
-| B1-K1-W2 User stories                             | TODO | [User Stories]                       | Markdown of Word/RTF|
+| B1-K1-W2 User stories                             | DONE | [User Stories]                       | excel|
 | B1-K1-W2 Functioneel ontwerp                      | TODO | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | TODO | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | TODO | [Urenschatting]                      | Markdown |
@@ -39,7 +39,7 @@ Deze fase duurt 3 weken
 [Debriefing]: <doc/fase-1/debriefing.md>
 [Planning]: <doc/fase-1/planning.md>
 [Plan van Aanpak]: <doc/fase-1/plan-van-aanpak.md>
-[User stories]: <doc/fase-1/user-stories.md>
+[User stories]: <doc/fase-1/user storry.xlsx>
 [Design]: <doc/fase-1/design/design.md/>
 [FO]: </doc/fase-1/functioneel-ontwerp.md>
 [Flow]: <doc/fase-1/flow.svg>
