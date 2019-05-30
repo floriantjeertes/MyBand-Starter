@@ -1,0 +1,233 @@
+body{
+    background-image: linear-gradient(black, rgb(12,60,130));
+    background-repeat: no-repeat;
+ background-attachment: fixed;
+
+
+}
+
+#header{
+margin-top: -8px;
+margin-left: 250px;
+margin-right: 250px;
+z-index: 3;
+}
+#bovenkant{
+  height:85px;
+  width:702px;
+  background-color: #F2F2F2;
+  position: fixed;
+}
+#klepje{
+  width:444px;
+  height: 60px;
+border-bottom-left-radius: 5px;
+border: 1px solid black;
+margin-left: 70px;
+position: fixed;
+border-top: none;
+border-right: none;
+
+}
+#klepje h2
+{
+  color: red;
+  padding-left: 30px;
+}
+#controller_grill{
+  background-color: #666666;
+  width: 118px;
+  height: 158px;
+  position: fixed;
+  margin-left: 514px;
+}
+#onder_recht{
+  margin-left: 0px;
+margin-top: 85px;
+position: fixed;
+width:702px;
+height:14px;
+background-color: #D7D7D7;
+}
+
+#onder_schuin{
+  width: 612px;
+  margin-top: 99px;
+  margin-left: 0px;
+  position: fixed;
+    border-top: 59px solid #D7D7D7;
+  border-left: 40px solid transparent;
+border-right: 50px solid transparent;
+
+}
+#hamburger{
+margin-top: -60px;
+margin-left: 30px;
+width: 46px;
+height: 31px;
+color: red;
+}
+#hamburger:hover{cursor: pointer;
+
+}
+
+
+#dropdown{
+  margin-top:21px;
+  background-color: #F2F2F2;
+  width: 102px;
+  height: 254px;
+}
+#zoekPaginaKnop{
+  text-align: right;
+  color:white;
+height:107px;
+width:94px;
+background-image: url("../images/nes.png");
+background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 4px;
+}
+
+#zoekPaginaKnop h{
+padding-right:12px;
+}
+   #zoekPaginaKnop:hover{
+     -webkit-animation: vibrate-1 0.3s linear infinite both;
+             animation: vibrate-1 0.3s linear infinite both;
+  }
+
+
+
+#agendaKnop{
+  text-align: right;
+  color: white;
+  height:107px;
+  width:94px;
+  margin-top: 20px;
+  background-image: url("../images/nes.png");
+  background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 4px;
+}
+#agendaKnop h{
+  padding-right:10px;
+
+}
+
+#agendaKnop:hover{
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+          animation: vibrate-1 0.3s linear infinite both;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  cursor:  url("../images/hand.png"),pointer;
+}
+
+#inloggen{
+background-color: #F2F2F2;
+width: 106px;
+height: 27px;
+margin-top: -40px;
+margin-left: 93px;
+text-align: center;
+}
+
+
+#registreren{
+background-color: #F2F2F2;
+width: 106px;
+height: 27px;
+margin-top: -27px;
+margin-left: 210px;
+text-align: center;
+}
+
+
+
+/* ====================keyframes==================== */
+
+
+
+
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+
+
+
+
+
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
