@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-image: linear-gradient(black, rgb(12, 60, 130));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/* de grid */
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#grido{
+  margin-top: 160px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#object1 {
+  padding: 10px;
+  margin:10px;
+  background-color: #D7D7D7;
+  hieght: 135px;
+  width: 682px;
+  display: grid;
+  grid-template-areas: 'tietel .. ..'
+                       'boxart Info GameButton';
+
+}
+#tietel{
+  grid-area:tietel;
+}
+#Info {
+
+  grid-area: Info;
+}
+p{
+  height: 90px;
+  width: 274px;
+  /* white-space: nowrap; */
+overflow: hidden;
+  text-overflow: ellipsis;
+}
+#boxart {
+  grid-area: boxart;
+}
+ #boxartPlaatje{hieght:84px;
+width:128px;}
+#GameButton{
+  grid-area: GameButton;
+    align-self: center;
+
+}
+#gameButton:hover{
+cursor: pointer;
+
+}
+Button:hover{
+  cursor:pointer;
+
+}
+.GameButton{
+  height:84px;
+  width:80px;
+}
+button{
+background-color:transparent;
+  border: none;
+  outline: none;
+}
+
+/* einde grid  */
+/* dit kan later verdeeld worden */
+#emulator {
+  margin-top: 400px;
+  margin-left: 100px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* einde emulator */
+#headergrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100px;
+  width:100px;
+}
+#header {
+
+  margin-top: -8px;
+  margin-left: 25.6%;
+  margin-right: 250px;
+  height: 200px;
+  z-index: 3000;
+  position: absolute;
+}
+
+#bovenkant {
+  height: 85px;
+  width: 702px;
+  background-color: #F2F2F2;
+  position: fixed;
+}
+
+#klepje {
+  width: 444px;
+  height: 60px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid black;
+  margin-left: 70px;
+  position: fixed;
+  border-top: none;
+  border-right: none;
+}
+
+#klepje h2 a {
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+  padding-top: 80px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+#controller_grill {
+  background-color: #666666;
+  width: 118px;
+  height: 158px;
+  position: fixed;
+  margin-left: 514px;
+}
+
+#onder_recht {
+  margin-left: 0px;
+  margin-top: 85px;
+  position: fixed;
+  width: 702px;
+  height: 14px;
+  background-color: #D7D7D7;
+}
+
+#onder_schuin {
+  width: 612px;
+  margin-top: 99px;
+  margin-left: 0px;
+  position: fixed;
+  border-top: 59px solid #D7D7D7;
+  border-left: 40px solid transparent;
+  border-right: 50px solid transparent;
+height: 2em;
+}
+
+#hamburger {
+  margin-top: -60px;
+  margin-left: 30px;
+  width: 46px;
+  height: 31px;
+  color: red;
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
+#dropdown {
+  font-size:10px;
+  width: 612px;
+  height: 154px;
+  margin-left: 0%;
+  margin-top:5%;
+  background: url("../images/NesController.svg");
+  background-repeat: no-repeat;
+  background-size: contain ;
+
+
+}
+input#searchbar{
+  margin-top:5px;
+  visibility:hidden;
+  margin-left: 10em;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: none;
+  border-color: black;
+border-bottom-width: thin;
+}
+#zoekPaginaKnop {
+  text-align: center;
+  color: white;
+  height: 20px;
+  width: 20px;
+  /* background-image: url("../images/nes.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
+  margin-left: 248px;
+  margin-top: 85px;
+}
+
+#zoekPaginaKnop h {
+  padding-right: 12px;
+}
+
+#zoekPaginaKnop:hover {
+
+  cursor: pointer;
+}
+
+#agendaKnop {
+  text-align: right;
+  color: white;
+  height: 20px;
+  width: 20px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 295px;
+}
+
+#agendaKnop h {
+  padding-right: 10px;
+}
+
+#agendaKnop:hover {
+
+  cursor: pointer;
+}
+
+#inloggen:hover {
+  cursor: pointer;
+}
+
+#inloggen {
+  background-color: #D7D7D7;
+  border: 3px solid #CCCCCC;
+  width: 106px;
+  height: 27px;
+  margin-top: -40px;
+  margin-left: 93px;
+  text-align: center;
+  color: white;
+  text-size: 20px;
+}
+
+#registreren:hover {
+  cursor: pointer;
+}
+
+#registreren {
+  background-color: #D7D7D7;
+  border: 3px solid #CCCCCC;
+  width: 106px;
+  height: 27px;
+  margin-top: -33px;
+  margin-left: 210px;
+  text-align: center;
+  color: white;
+}
+
+/* ====================footer==================== */
+#footer {
+  padding-top: 90px;
+
+}
+
+#FooterBalk {
+
+  margin-lef: -1px;
+  background: #F2F2F2;
+  width: 100%;
+  height: 52px;
+}
+
+#knop1 {
+  width: 109px;
+  height: 122px;
+  margin-top: -90px;
+}
+
+#knop2 {}
+
+#knop3 {}
+
+#knop4 {}
+
+#knop5 {}
+
+#knop6 {}
+#paypal{
+  float: right;
+}
+/* ====================keyframes==================== */
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}

@@ -1,0 +1,15 @@
+#form{
+
+  grid-row-start: 2;
+    grid-column-end: 3;
+
+}
+#gridcontain{
+
+
+  display: grid;
+hieght:1000px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
